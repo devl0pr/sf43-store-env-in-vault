@@ -5,7 +5,8 @@ use Koshatul\Vault\Vault;
 use Koshatul\Vault\VaultURI;
 use Koshatul\Vault\VaultAuthToken;
 
-$vaultURI = new VaultURI("http://example-vault-server.com/v1/");
+
+$vaultURI = new VaultURI("YOUR_VAULT_SERVER_URI");
 $vaultAuthToken = new VaultAuthToken("YOUR_VAULT_AUTH_TOKEN");
 $vault = new Vault($vaultURI, $vaultAuthToken);
 
