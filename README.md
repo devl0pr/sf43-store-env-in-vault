@@ -1,6 +1,6 @@
 # sf43-store-env-in-vault
 
-This will work only symfony 3.4 version.
+This will work only symfony 4.3 version.
 If you need more information read documention:
 https://symfony.com/doc/current/configuration/env_var_processors.html
 
